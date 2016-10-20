@@ -1,3 +1,8 @@
+## Put comments here that give an overall description of what your
+## functions do
+
+## Write a short comment describing this function
+
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
     set <- function(y) {
@@ -11,6 +16,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
+## Write a short comment describing this function
+     ## Return a matrix that is the inverse of 'x'
 cacheSolve <- function(x, ...) {
      i <- x$getinv()
      if(!is.null(i)) {
